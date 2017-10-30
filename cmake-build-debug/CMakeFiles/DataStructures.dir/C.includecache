@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nicholas/CLionProjects/DataStructures/hash_table.c
+stdio.h
+-
+linked_list.h
+/Users/nicholas/CLionProjects/DataStructures/linked_list.h
+
+/Users/nicholas/CLionProjects/DataStructures/linked_list.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/nicholas/CLionProjects/DataStructures/linked_list.h
+
+/Users/nicholas/CLionProjects/DataStructures/main.c
+stdio.h
+-
+stdlib.h
+-
+
